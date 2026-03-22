@@ -150,7 +150,6 @@ Microservices
 | **CD** | ArgoCD (GitOps) |
 | **Ingress** | AWS ALB Ingress Controller |
 | **DNS** | Route 53 + Hostinger (custom domain) |
-| **Observability** | OpenTelemetry Collector, Jaeger, Prometheus, Grafana, OpenSearch |
 
 ---
 
