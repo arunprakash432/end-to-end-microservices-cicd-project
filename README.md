@@ -47,7 +47,6 @@ This project is an end-to-end implementation of the **[OpenTelemetry Demo Applic
 
 The project demonstrates:
 
-- **Distributed Observability** — Traces, metrics, and logs across 20+ microservices using OpenTelemetry
 - **Infrastructure as Code** — All AWS resources provisioned with Terraform (remote state in S3 + DynamoDB locking)
 - **Container Orchestration** — Kubernetes on Amazon EKS with VPC, IAM roles, node groups, and ALB Ingress
 - **GitOps CI/CD** — GitHub Actions for CI (build & push images on PR merge) + ArgoCD for CD (self-healing deployments)
@@ -192,7 +191,7 @@ Connect to the instance:
 ssh -i your-key.pem ubuntu@<EC2-PUBLIC-IP>
 ```
 
-### 3. Install Required Tools
+### 3. Install Required Tools " - Refer official documentation for clear steps "
 
 **Docker:**
 ```bash
